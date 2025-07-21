@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: julianaaml/hello-app:latest
+          image: julianaaml/hello-app:
           ports:
             - containerPort: 80
